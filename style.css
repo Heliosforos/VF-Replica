@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+}
+#container {
+    display: flex;
+    flex-flow: wrap;
+    width: 100vw;
+    height: 50vh;
+}
+
+#image {
+    width: 45%;
+    height: 100%;
+}
+
+#text {
+    margin-top: 1%;
+    padding-left: 1%;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    width: 52%;
+    height: 100%;
+}
+
+#text1 {
+    font-family: "Mulish";
+    font-size: 25px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 50%;
+}
+
+#text2 {
+    font-family: "Mulish";
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 98%;
+    height: 20%;
+}
+
+#readmore {
+    width: 12vw;
+    height: 7vh;
+    background: rgba(0,0,0,0);
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Mulish",sans-serif;
+    transition: all;
+    text-align: center;
+    white-space: normal;
+    border: 2px solid #CC4946;
+    color: #CC4946;
+    border-radius: 4px;
+}
+
+#readmore:hover {
+    background-color: #6866fa;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
